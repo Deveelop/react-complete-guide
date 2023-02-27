@@ -29,8 +29,8 @@ const ExpenseForm = (props) => {
   setEnteredTitle('');
   setEnteredAmount('');
   setEnteredDate('');
-
 }
+
   return (
     <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
