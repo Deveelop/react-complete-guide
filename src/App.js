@@ -31,14 +31,11 @@ function App() {
     return [expense, ...prevExpenses]
    })
   }
-  const addHigher = (details) => {
-    console.log('from App');
-    console.log(details);
-  }
+
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
-    <Expenses items = {expenses} onAddMore={addHigher} />
+    <Expenses items = {expenses}  />
     </div>
   );
 }
